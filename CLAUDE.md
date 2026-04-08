@@ -47,12 +47,11 @@ saa-cheatsheet/
 
 ### 2. 챕터 작성 후 (필수 워크플로우)
 
-챕터 작성 시 아래 4단계를 **매번 순서대로** 실행할 것:
+챕터 작성 시 아래 3단계를 **매번 순서대로** 실행할 것:
 
 1. **`.md` 파일 작성** → 해당 챕터 폴더에 저장
 2. **Git commit + push** → 커밋 메시지는 규약 7번 항목 따를 것 (`feat(ch1-1): ...`)
-3. **Notion 본문 임베디드** → 학습 대시보드 DB의 해당 챕터 페이지 본문에 .md 내용 전체 삽입 (모바일 학습 대응)
-4. **대시보드 상태 업데이트** → 상태를 "작성완료"로 변경, 작성일 기록, Git 경로 입력
+3. **README.md 업데이트** → 챕터 진행 상태 표 갱신
 
 ### 3. 답변 톤
 - **객관적 분석 우선**, 불필요한 격려나 칭찬 금지
@@ -66,21 +65,9 @@ saa-cheatsheet/
 - 사용자가 직접 AWS 공식 문서 확인하도록 링크 제공
 
 ### 5. dump 검증 워크플로우
-- 챕터 작성 → Banghyeon이 dump 5~10문제 풀이 → 오답은 Notion 오답 노트 DB에 기록
+- 챕터 작성 → Banghyeon이 dump 5~10문제 풀이
+- 틀린 문제 → 해당 챕터 .md의 "학습 메모" 섹션에 기록
 - 사용자가 "Chapter X-Y에서 [약점] 보강해줘"라고 요청하면, 해당 .md의 "학습 메모" 섹션 또는 본문을 보강
-
-## 연결된 Notion DB
-
-> 사용자가 "노션에 기록해줘" 요청 시 아래 DB 사용
-
-- **AWS 자격증 페이지**: https://www.notion.so/33c5a1a2c9e8817c83e1eb636947000f
-  - Page ID: `33c5a1a2-c9e8-817c-83e1-eb636947000f`
-- **학습 대시보드 DB**: https://www.notion.so/1c00711686ca42c6b3f6cf5e82acb085
-  - Data Source ID: `aa8d501c-1b3e-405e-8a74-88667497388b`
-  - 컬럼: 챕터(title), 상태(select: 미작성/작성중/작성완료/검증완료/재학습필요), 분류(select), 작성일(date), 검증일(date), 관련 dump 풀이수(number), 오답수(number), 재학습 필요(checkbox), Git 경로(text), 메모(text)
-- **오답 노트 DB**: https://www.notion.so/c5202e5195224c149c54e9922469fa36
-  - Data Source ID: `d4853bb4-6760-43a4-9e39-4d36b47126fa`
-  - 컬럼: 문제 요약(title), 출처(select), 문제 번호(text), 내가 고른 답(text), 정답(text), 틀린 이유 분류(select), 관련 챕터(multi_select), 핵심 키워드(text), 복습 필요(checkbox), 재시도 결과(select), 기록일(created_time), 해설/메모(text)
 
 ## 챕터 작성 권장 순서 (체득 효율 순)
 
@@ -105,27 +92,11 @@ saa-cheatsheet/
 dump #47에서 Glacier Instant Retrieval과 Standard-IA를 헷갈렸음"
 ```
 
-### Notion 동기화 요청
-```
-"방금 작성한 Chapter 1-1을 학습 대시보드 DB에서 '작성완료'로 업데이트해줘"
-```
-
-### 오답 기록 요청
-```
-"오답 노트 DB에 기록해줘:
-- 문제: S3 Cross-Region Replication 비용 최적화
-- 내가 고른 답: S3 Standard
-- 정답: S3 Standard-IA
-- 분류: 비용 오판
-- 관련 챕터: 1-2 스토리지"
-```
-
 ## 절대 금지 사항
 
 - ❌ 챕터를 한 번에 다 작성하려 하지 말 것
 - ❌ 자작 모의 문제 만들지 말 것
 - ❌ "검증 필요 항목" 섹션을 비워두지 말 것
-- ❌ Notion에 직접 본문 작성하지 말 것 (.md가 원본)
 - ❌ 과도한 격려, "잘하고 계세요" 류 멘트 금지
 - ❌ 한국어 본문에 AWS 서비스명을 한국어로 음역하지 말 것 ("람다" X, "Lambda" O)
 
@@ -133,4 +104,4 @@ dump #47에서 Glacier Instant Retrieval과 Standard-IA를 헷갈렸음"
 
 - 시간 제약: 별도 명시 없음 (당직 근무 패턴 있으나 챕터 단위로 자율 진행)
 - 장비: Galaxy S26, 데스크탑
-- 협업 도구: claude.ai (대화), Claude Code (이 repo 작업), Notion (트래킹)
+- 협업 도구: claude.ai (대화), Claude Code (이 repo 작업)
