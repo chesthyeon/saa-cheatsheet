@@ -1,6 +1,6 @@
 # AWS SAA-C03 치트시트
 
-> 2026년 7월 채용 시즌 대비 AWS Solutions Architect Associate 학습 자료
+> 2026년 AWS Solutions Architect Associate 학습 자료
 
 ## 구조
 
