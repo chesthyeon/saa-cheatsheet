@@ -19,7 +19,7 @@
 | 1-3 | [데이터베이스 및 캐시](11_keyword_mapping/ch1-3_database_cache.md) | ✅ |
 | 1-4 | [네트워크 및 콘텐츠 전송](11_keyword_mapping/ch1-4_network_cdn.md) | ✅ |
 | 1-5 | [애플리케이션 통합 및 분석](11_keyword_mapping/ch1-5_integration_analytics.md) | ✅ |
-| 1-6 | 특수 목적 서비스 (AI/ML, 마이그레이션, 비용 도구) | ⬜ |
+| 1-6 | [특수 목적 서비스 (AI/ML, 마이그레이션, 비용 도구)](11_keyword_mapping/ch1-6_special_purpose.md) | ✅ |
 | 1-7 | 자격 증명 및 거버넌스 (IAM, Organizations, STS) | ⬜ |
 
 ## Chapter 3. 헷갈리는 쌍 완전 정리
