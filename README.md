@@ -20,7 +20,7 @@
 | 1-4 | [네트워크 및 콘텐츠 전송](11_keyword_mapping/ch1-4_network_cdn.md) | ✅ |
 | 1-5 | [애플리케이션 통합 및 분석](11_keyword_mapping/ch1-5_integration_analytics.md) | ✅ |
 | 1-6 | [특수 목적 서비스 (AI/ML, 마이그레이션, 비용 도구)](11_keyword_mapping/ch1-6_special_purpose.md) | ✅ |
-| 1-7 | 자격 증명 및 거버넌스 (IAM, Organizations, STS) | ⬜ |
+| 1-7 | [자격 증명 및 거버넌스 (IAM, Organizations, STS)](11_keyword_mapping/ch1-7_iam_governance.md) | ✅ |
 
 ## Chapter 3. 헷갈리는 쌍 완전 정리
 
@@ -104,7 +104,7 @@
 
 > Chapter 번호 순이 아닌, 학습 효율 순서로 작성합니다.
 
-1. **Chapter 1** (키워드 매핑) — 전체 그림 ← **현재 진행 중**
+1. **Chapter 1** (키워드 매핑) — 전체 그림 ✅
 2. **Chapter 3** (헷갈리는 쌍) — 1을 보강
 3. **Chapter 4** (시나리오 템플릿) — 1+3 응용
 4. **Chapter 5** (함정) — 4까지 본 뒤 정리
