@@ -28,7 +28,7 @@
 |---|------|------|
 | 3-1 | [컴퓨팅: EC2 vs Lambda vs Fargate vs ECS vs EKS vs App Runner](13_comparison/ch3-1_compute.md) | ✅ |
 | 3-2 | [로드밸런서: ALB vs NLB vs GLB vs CLB](13_comparison/ch3-2_load_balancer.md) | ✅ |
-| 3-3 | 스토리지: S3 클래스 / EBS vs EFS vs FSx 4종 | ⬜ |
+| 3-3 | [스토리지: S3 클래스 / EBS vs EFS vs FSx 4종](13_comparison/ch3-3_storage.md) | ✅ |
 | 3-4 | 데이터베이스: RDS vs Aurora vs DynamoDB vs ElastiCache vs Redshift | ⬜ |
 | 3-5 | 메시징: SQS vs SNS vs EventBridge vs Kinesis vs Step Functions | ⬜ |
 | 3-6 | 네트워크: VPN vs Direct Connect vs Transit Gateway vs Peering vs PrivateLink | ⬜ |
