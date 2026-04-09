@@ -32,7 +32,7 @@
 | 3-4 | [데이터베이스: RDS vs Aurora vs DynamoDB vs ElastiCache vs Redshift](13_comparison/ch3-4_database.md) | ✅ |
 | 3-5 | [메시징: SQS vs SNS vs EventBridge vs Kinesis vs Step Functions](13_comparison/ch3-5_messaging.md) | ✅ |
 | 3-6 | [네트워크: VPN vs Direct Connect vs Transit Gateway vs Peering vs PrivateLink](13_comparison/ch3-6_network.md) | ✅ |
-| 3-7 | 보안: KMS vs CloudHSM / ACM vs Secrets Manager vs Parameter Store | ⬜ |
+| 3-7 | [보안: KMS vs CloudHSM / ACM vs Secrets Manager vs Parameter Store](13_comparison/ch3-7_security.md) | ✅ |
 | 3-8 | 모니터링: CloudWatch vs CloudTrail vs Config vs X-Ray | ⬜ |
 | 3-9 | IAM: 역할 vs 사용자 vs 리소스 기반 정책 vs SCP vs Permission Boundary | ⬜ |
 
