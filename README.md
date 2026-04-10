@@ -67,8 +67,8 @@
 |---|------|------|
 | 2-1 | [비용 최적화 키워드 → 서비스 매핑](12_pattern/ch2-1_cost_optimization.md) | ✅ |
 | 2-2 | [고가용성·내결함성 키워드 → 서비스 매핑](12_pattern/ch2-2_high_availability.md) | ✅ |
-| 2-3 | 보안·암호화 키워드 → 서비스 매핑 | ⬜ |
-| 2-4 | 성능·확장성 키워드 → 서비스 매핑 | ⬜ |
+| 2-3 | [보안·암호화 키워드 → 서비스 매핑](12_pattern/ch2-3_security_encryption.md) | ✅ |
+| 2-4 | [성능·확장성 키워드 → 서비스 매핑](12_pattern/ch2-4_performance_scalability.md) | ✅ |
 | 2-5 | 운영 오버헤드 최소화 키워드 → 서비스 매핑 | ⬜ |
 | 2-6 | 마이그레이션 세분화 (DataSync vs Snow Family vs DMS/SCT vs AMS) | ⬜ |
 | 2-7 | 느슨한 결합·이벤트 기반 키워드 → 서비스 매핑 | ⬜ |
