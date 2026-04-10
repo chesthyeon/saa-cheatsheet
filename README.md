@@ -56,10 +56,10 @@
 | 5-1 | ["가장 저렴한(Cheapest)" vs "운영 오버헤드가 적은(Least Overhead)"](15_traps/ch5-1_cheapest_vs_least_overhead.md) | ✅ |
 | 5-2 | [고가용성 vs 내구성 vs 내결함성](15_traps/ch5-2_ha_durability_fault_tolerance.md) | ✅ |
 | 5-3 | [보안 그룹(Stateful) vs NACL(Stateless)](15_traps/ch5-3_sg_vs_nacl.md) | ✅ |
-| 5-4 | S3 버킷 정책 vs IAM 정책 우선순위 / 명시적 Deny | ⬜ |
-| 5-5 | 리전 vs 글로벌 서비스 구분 | ⬜ |
-| 5-6 | "애플리케이션 코드 변경 최소화" 키워드 | ⬜ |
-| 5-7 | "관리형(Managed)" vs "서버리스(Serverless)" 혼동 | ⬜ |
+| 5-4 | [S3 버킷 정책 vs IAM 정책 우선순위 / 명시적 Deny](15_traps/ch5-4_s3_policy_priority.md) | ✅ |
+| 5-5 | [리전 vs 글로벌 서비스 구분](15_traps/ch5-5_regional_vs_global.md) | ✅ |
+| 5-6 | ["애플리케이션 코드 변경 최소화" 키워드](15_traps/ch5-6_minimize_code_changes.md) | ✅ |
+| 5-7 | ["관리형(Managed)" vs "서버리스(Serverless)" 혼동](15_traps/ch5-7_managed_vs_serverless.md) | ✅ |
 
 ## Chapter 2. 문제 요구사항(목적)별 정답 패턴
 
