@@ -42,8 +42,8 @@
 |---|------|------|
 | 4-1 | [정적 웹사이트 호스팅 (S3 + CloudFront + Route 53 + ACM)](14_scenarios/ch4-1_static_website.md) | ✅ |
 | 4-2 | [3-Tier 웹 애플리케이션 (ALB + ASG + Multi-AZ RDS)](14_scenarios/ch4-2_three_tier.md) | ✅ |
-| 4-3 | 완전 서버리스 (API Gateway + Lambda + DynamoDB + Cognito) | ⬜ |
-| 4-4 | 마이크로서비스·디커플링 (API Gateway + SQS/SNS + Lambda/Fargate) | ⬜ |
+| 4-3 | [완전 서버리스 (API Gateway + Lambda + DynamoDB + Cognito)](14_scenarios/ch4-3_serverless.md) | ✅ |
+| 4-4 | [마이크로서비스·디커플링 (API Gateway + SQS/SNS + Lambda/Fargate)](14_scenarios/ch4-4_microservices.md) | ✅ |
 | 4-5 | 데이터 레이크 + 분석 (S3 + Kinesis + Glue + Athena + QuickSight) | ⬜ |
 | 4-6 | 재해 복구 (DR) 4대 전략 | ⬜ |
 | 4-7 | 하이브리드 클라우드 (Direct Connect + Transit Gateway + Storage Gateway) | ⬜ |
