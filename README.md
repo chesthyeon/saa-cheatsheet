@@ -46,8 +46,8 @@
 | 4-4 | [마이크로서비스·디커플링 (API Gateway + SQS/SNS + Lambda/Fargate)](14_scenarios/ch4-4_microservices.md) | ✅ |
 | 4-5 | [데이터 레이크 + 분석 (S3 + Kinesis + Glue + Athena + QuickSight)](14_scenarios/ch4-5_data_lake.md) | ✅ |
 | 4-6 | [재해 복구 (DR) 4대 전략](14_scenarios/ch4-6_disaster_recovery.md) | ✅ |
-| 4-7 | 하이브리드 클라우드 (Direct Connect + Transit Gateway + Storage Gateway) | ⬜ |
-| 4-8 | Cross-Account 액세스 패턴 (IAM Role + STS AssumeRole) | ⬜ |
+| 4-7 | [하이브리드 클라우드 (Direct Connect + Transit Gateway + Storage Gateway)](14_scenarios/ch4-7_hybrid_cloud.md) | ✅ |
+| 4-8 | [Cross-Account 액세스 패턴 (IAM Role + STS AssumeRole)](14_scenarios/ch4-8_cross_account.md) | ✅ |
 
 ## Chapter 5. 자주 틀리는 함정 유형
 
