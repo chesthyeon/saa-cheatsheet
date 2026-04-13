@@ -82,8 +82,8 @@
 | 0-2 | [보안 (Security)](10_principles/ch0-2_security.md) | ✅ |
 | 0-3 | [안정성 (Reliability)](10_principles/ch0-3_reliability.md) | ✅ |
 | 0-4 | [성능 효율성 (Performance Efficiency)](10_principles/ch0-4_performance_efficiency.md) | ✅ |
-| 0-5 | 비용 최적화 (Cost Optimization) | ⬜ |
-| 0-6 | 지속 가능성 (Sustainability) | ⬜ |
+| 0-5 | [비용 최적화 (Cost Optimization)](10_principles/ch0-5_cost_optimization.md) | ✅ |
+| 0-6 | [지속 가능성 (Sustainability)](10_principles/ch0-6_sustainability.md) | ✅ |
 
 ## Chapter 6. 오답 노트
 
