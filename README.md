@@ -78,8 +78,8 @@
 
 | # | 챕터 | 상태 |
 |---|------|------|
-| 0-1 | 운영 우수성 (Operational Excellence) | ⬜ |
-| 0-2 | 보안 (Security) | ⬜ |
+| 0-1 | [운영 우수성 (Operational Excellence)](10_principles/ch0-1_operational_excellence.md) | ✅ |
+| 0-2 | [보안 (Security)](10_principles/ch0-2_security.md) | ✅ |
 | 0-3 | 안정성 (Reliability) | ⬜ |
 | 0-4 | 성능 효율성 (Performance Efficiency) | ⬜ |
 | 0-5 | 비용 최적화 (Cost Optimization) | ⬜ |
